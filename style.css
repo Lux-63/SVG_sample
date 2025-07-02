@@ -1,0 +1,178 @@
+.windows-theam {
+    display: grid;
+  justify-content: center;
+  align-items: stretch;
+}
+.head-top {
+  display: grid;
+
+}
+.loading-circumference{
+    width: 250px;
+    height: 300px;    
+    transform: rotate(-90deg);
+} 
+.window-load-bar{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.info-position{
+  position: absolute;
+  width: 110px;
+  height: 11s0px;
+  padding-top: 45px;
+  left: 665px;
+  top: 145px;
+  text-align: center;
+}
+.info-position1{
+  width: 110px;
+  height: 110px;
+  text-align: center;
+}
+
+.circle1{
+    stroke-width:20px;
+    stroke: silver;
+    fill: none;    
+}
+.circle-bar-size{
+ r: 108;
+}
+
+.circle-center1{
+  width: 80px;
+  height: 40px;
+}
+
+body {
+    background-color: black; /* Фон страницы будет чёрным */
+    color: white; /* Текст страницы будет белым */
+}
+.circle {
+  /* fill: purple;
+  stroke: black; */
+  stroke-width: 12;
+}
+.dots-complette{
+  animation: load-complette;
+  transition-delay: 3s;
+  animation-duration: 3s;
+}
+@keyframes load-complette {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.dots-clear{
+  animation: precent-clear;
+  animation-duration: 5s;
+}
+@keyframes precent-clear {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.dots-one {
+  animation-name: animation-one;
+  animation-duration: 3s;
+}
+
+@keyframes animation-one {
+  0% {
+    stroke: rgb(255, 0, 0);
+  }
+  100% {
+    stroke: rgb(240, 115, 12);
+  }
+}
+.dots-two {
+  animation-name: animation-twenty-five;
+  animation-duration: 3s;
+  stroke: rgb(240, 115, 12);
+}
+@keyframes animation-twenty-five {
+  from {
+    stroke: rgb(240, 115, 12);
+  }
+  to {
+    stroke: rgb(233, 161, 17);
+  }
+}
+
+.dots-three {
+  animation-name: animation-fivty;
+  animation-duration: 3s;
+  stroke: rgb(233, 161, 17);
+}
+@keyframes animation-fivty {
+  from {
+    stroke: rgb(233, 161, 17);
+  }
+  to {
+    stroke: rgb(17, 150, 233);
+  }
+}
+
+.dots-four {
+  animation-name: animation-seventy-five;
+  animation-duration: 3s;
+  stroke: rgb(17, 150, 233);
+}
+@keyframes animation-seventy-five {
+  from {
+    stroke: rgb(17, 150, 233);
+  }
+  to {
+    stroke: rgb(17, 42, 233);
+  }
+}
+
+.dots-five {
+  animation-name: animation-one-hundred;
+  animation-duration: 3s;
+  stroke: rgb(17, 42, 233);
+}
+@keyframes animation-one-hundred {
+  from {
+    stroke: rgb(17, 42, 233);
+  }
+  to {
+    stroke: rgb(28, 233, 17);
+  }
+}
+
+
+.dots-warning {
+  animation-name: animation-warning;
+  animation-duration: 3s;
+  stroke: rgb(233, 175, 17);
+}
+@keyframes animation-warning {
+  from {
+    /* stroke: rgb(17, 42, 233); */
+  }
+  to {
+    stroke: rgb(233, 175, 17);
+  }
+   
+}
+
+
+.dots-error {
+  animation-name: animation-error;
+  animation-duration: 3s;
+  stroke: rgb(233, 17, 17);
+}
+@keyframes animation-error {
+  from {
+    /* stroke: rgb(17, 42, 233); */
+  }
+  to {
+    stroke: rgb(233, 17, 17);
+  }
+   
+}
+
+
