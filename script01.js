@@ -117,7 +117,7 @@ function stepProgress() {
 function startAutoLoadBar() {
     startInterval = setInterval(() => {
         // circleBar.style.stroke = "rgb(255, 0, 0)";
-    stepPerogress();
+    stepProgress();
     }, 10);
 };
 
